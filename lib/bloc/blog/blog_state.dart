@@ -17,6 +17,11 @@ class BlogLoaded extends BlogState {
   List<Object?> get props => [responseBlog];
 }
 
+class BlogEmpty extends BlogState {
+  @override
+  List<Object?> get props => [];
+}
+
 class BlogError extends BlogState {
   final String? error;
 
